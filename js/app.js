@@ -1,4 +1,4 @@
-var app = angular.module('demobasics', ['ngRoute', 'ngProgress']).config(function($routeProvider, $sceDelegateProvider) {
+var app = angular.module('demobasics', ['ngRoute', 'ngProgress', 'menuSlider']).config(function($routeProvider, $sceDelegateProvider) {
 	$routeProvider.when('/list', {
 		templateUrl: 'views/list.html',
 		controller: ListCtrl

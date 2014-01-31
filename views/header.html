@@ -1,10 +1,16 @@
-<div class="topcoat-navigation-bar">
-    <div class="topcoat-navigation-bar__item center ">
+<div id="header" class="topcoat-navigation-bar center">
+ 
+    <div class="topcoat-navigation-bar__item left quarter">
+        <button id="toggle-menu" class="topcoat-button" ng-click="$spMenu.toggle()">
+<i class="fa fa-bars fa-2x"></i>
+</button>
+    </div>
+    <div class="topcoat-navigation-bar__item center half">
         <h1 class="topcoat-navigation-bar__title">Header</h1>
         
     </div>
-    <div class="topcoat-navigation-bar__item right">
-        <a href="#notifications"><span class="topcoat-notification">1</span></a>
+    <div id="notification" class="topcoat-navigation-bar__item right quarter">
+        <a href="#notifications"><span class="topcoat-notification">14</span></a>
     </div>
     
 </div>
