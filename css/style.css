@@ -1,11 +1,16 @@
 /* Prevent copy paste for all elements except text fields */
 *  { -webkit-user-select:none; -webkit-tap-highlight-color:rgba(255, 255, 255, 0); }
 input, textarea  { -webkit-user-select:text; }
+body{ overflow-x:hidden;}
 #main{
         padding: 10px;
+background-color:#4b4d4e;
+
  }
 #header{
+}
 
+#menu{
 }
 
 #header button.topcoat-button{

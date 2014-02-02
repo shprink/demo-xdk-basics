@@ -30,7 +30,7 @@ background-color:#4b4d4e;
   transition-duration: 0.3s;
 }
 body.menu-shown #sp-nav{
-  left: 0px;
+  left: 0
   overflow-x: hidden;
 }
 body.menu-shown #content-wrapper{
