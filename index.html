@@ -31,7 +31,7 @@
 	</script>
 </head>
 <body>
-    <snap-drawer id="menu" data-ng-include="'views/menu.html'"></snap-drawer>
+    <snap-drawer id="menu" data-ng-include="'views/menu.html'"  ng-swipe-left="demoService.closeMenu()"></snap-drawer>
     <snap-content id="main">
         <div id="header" data-ng-include="'views/header.html'"></div>
         <ng-view></ng-view>

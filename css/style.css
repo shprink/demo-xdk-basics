@@ -8,14 +8,20 @@ background-color:#4b4d4e;
 
  }
 #header{
+    margin: -10px -5px 0px -5px;
+    padding-left: 0px;
+}
+
+#toggle-menu{
+    float:left;
+    border: none;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    font-size: 20px;
 }
 
 #menu{
-}
-
-#header button.topcoat-button{
-    float:left;
-margin-top: 5px;
 }
 
 #header button i{
