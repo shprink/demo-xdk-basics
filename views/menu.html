@@ -1,15 +1,9 @@
-
+<input type="search" value="" placeholder="search" class="topcoat-search-input">
 <div class="topcoat-list">
-  <h3 class="topcoat-list__header">My application</h3>
+  <h3 class="topcoat-list__header">Menu</h3>
   <ul class="topcoat-list__container">
-    <li class="topcoat-list__item">
-      <a href="#list">List</a>
-    </li>
-    <li class="topcoat-list__item">
-      Item
-    </li>
-    <li class="topcoat-list__item">
-      Item
+    <li class="topcoat-list__item" data-ng-repeat="menu in menus">
+      <a href="{{menu.href}}"><i class="fa {{menu.icon}}"></i> {{menu.name}} <i class="float-right fa fa-chevron-right"></i></a>
     </li>
   </ul>
 </div>

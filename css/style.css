@@ -12,6 +12,12 @@ background-color:#4b4d4e;
     padding-left: 0px;
 }
 
+#header .topcoat-notification{
+    
+width: 50px;
+    text-align:center;
+}
+
 #toggle-menu{
     float:left;
     border: none;
@@ -21,7 +27,17 @@ background-color:#4b4d4e;
     font-size: 20px;
 }
 
+#toggle-menu i{
+ margin-top: 7px;   
+}
+
 #menu{
+}
+
+#menu [type=search]{
+margin-top: 10px;
+margin-left: 10px;
+margin-bottom: 10px;
 }
 
 #header button i{
@@ -29,4 +45,25 @@ background-color:#4b4d4e;
 }
 
 #notification{
+}
+
+.topcoat-navigation-bar,
+.topcoat-navigation-bar__item{
+    height: 3.375rem;
+    line-height: 3.375rem;
+}
+
+.topcoat-list__item{
+    padding: 0px;   
+}
+
+.topcoat-list__item a{
+    padding: 1.25rem;
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+.float-right{
+    float:right;
 }
